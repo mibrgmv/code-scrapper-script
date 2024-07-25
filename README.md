@@ -2,9 +2,9 @@
 The script collects all code from given directories and merges it into a neat .txt file to help you with counting lines or submitting the code to an AI model.
 ## Instruction
 1. Insert the `script.sh` file into the root directory of your project.
-2. Type in subdirectory names into the `directories` folder inside the file. **Note**: they must be in the same parent directory, as the `script.sh` file.
+2. Type in subdirectory names into the `directories` folder inside the file. **Note**: the subdirectories must be in the same parent directory as the `script.sh` file.
 3. Run the script via terminal: `bash script.sh`.
-4. Your code now should appear in the same directory as `code_context.txt`.
+4. Your code should now appear in the same directory as `code_context.txt`.
 ## Code 
 ```shell
 #!/bin/bash
